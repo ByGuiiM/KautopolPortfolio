@@ -62,3 +62,18 @@
 .navbar__img {
     width: 24px;
 }
+
+@media screen and (min-width: 768px) {
+    .heading__container {
+        display: flex;
+    }
+    
+    .heading__container-card {
+        margin-left: 1em;
+    }
+
+    .navbar {
+        flex-direction: row;
+        margin-top: auto;
+    }
+}
