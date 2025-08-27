@@ -1,0 +1,40 @@
+.about-me,
+.skills,
+.develops,
+.budget {
+    margin: 1em;
+    padding: 0.5em;
+    border-radius: 0.5em;
+    background-color: var(--cards-color);
+}
+
+.skills__container,
+.dev__list-item,
+.dev__budget {
+    background-color: var(--objects-color);
+}
+
+.dev__link,
+.dev__budget-link,
+.bdg__link {
+    background-color: var(--link-color);
+    font-family: var(--title-font);
+    color: var(--background-color);
+    border: 1px solid var(--background-color);
+    border-radius: 1em;
+}
+
+.dev__link:hover , .dev__budget-link:hover, .bdg__link:hover {
+    transition: 0.3s;
+    background-color: var(--link-hover);
+    color: var(--cards-color);
+}
+
+.about-me__title,
+.skills__title,
+.dev__title,
+.budget__title {
+    font-family: var(--title-font);
+    font-size: 1.5rem;
+    font-weight: 600;
+}

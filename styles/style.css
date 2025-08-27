@@ -1,0 +1,30 @@
+@import url(reset.css);
+@import url(header.css);
+@import url(general.css);
+@import url(cards.css);
+@import url(footer.css);
+
+:root {
+    --background-color: #030303;
+    --header-color: #0a0a0a;
+    --cards-color: #121212;
+    --objects-color: #1e1e2e;
+    --link-color: #3d3d5c;
+    --link-hover: #362453;
+    --text-color: #f2f8f8;
+
+    --title-font: "Poppins";
+    --text-font: "Montserrat";
+}
+
+body {
+    font-family: var(--text-font);
+    font-size: 16px;
+    font-weight: 400;
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+
+hr {
+    width: 50%;
+}
