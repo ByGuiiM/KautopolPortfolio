@@ -1,4 +1,10 @@
 .foot {
     text-align: center;
+    padding: 0.2em;
     background-color: var(--header-color);
+}
+
+.foot__text {
+    font-weight: 200;
+    color: var(--footer-text);
 }
